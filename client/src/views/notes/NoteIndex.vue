@@ -8,7 +8,7 @@ onMounted(() => getNotes());
 </script>
 <template>
     <div class="btn btn-outline-dark">
-        <RouterLink :to="{ name: 'NoteCreate' }">New Note</RouterLink>
+        <RouterLink :to="{ name: 'NoteCreate' }" id="newNote">New Note</RouterLink>
     </div>
     <br>
     <div style="float: left; width: 33%;">

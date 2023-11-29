@@ -8,7 +8,6 @@ const token = localStorage.getItem("token");
 <template>
   <header>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <RouterLink class="navbar-brand" to="/">Home</RouterLink>
       <div v-if="token">
         <RouterLink class="navbar-brand" to="/notes">Notes</RouterLink>
       </div>

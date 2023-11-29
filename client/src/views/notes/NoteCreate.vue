@@ -47,7 +47,6 @@ const form = reactive({
                         <div class="col-sm-12">
                             <label for="status">Status</label>
                             <select class="form-control" id="status" v-model="form.status">
-                                <option selected>Status</option>
                                 <option value="0">Todo</option>
                                 <option value="1">In Progress</option>
                                 <option value="2">Done</option>
